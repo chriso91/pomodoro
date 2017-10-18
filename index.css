@@ -1,0 +1,131 @@
+body{
+	background-color: black !important;
+}
+
+#prodiv{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#probut{
+	font-family: 'Lobster';
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+}
+
+#probut:hover{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+#title{
+	text-align: center;
+	font-family:'Orbitron';
+	font-size: 50px;
+	color: white;
+}
+
+#parameters{
+	margin: 0 auto;
+	width: 450px;
+	text-align: center;
+	font-family:'Orbitron';
+	font-size: 20px;
+	color: white;
+}
+
+#blen{
+	display: inline;
+	text-align: center;
+}
+
+#slen{
+	display: inline;
+	text-align: center;
+}
+
+#changebreakdown{
+	display: inline;
+	text-align: center;
+	color: white;
+}
+
+#changebreakdown:hover{
+	color: grey;
+	text-decoration: none; 
+}
+
+#changesessiondown{
+	display: inline;
+	text-align: center;
+	color: white;
+}
+
+#changesessiondown:hover{
+	color: grey;
+	text-decoration: none; 
+}
+
+#changebreakup{
+	display: inline;
+	text-align: center;
+	color: white;
+}
+
+#changebreakup:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+#changesessionup{
+	display: inline;
+	text-align: center;
+	color: white;
+}
+
+#changesessionup:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+#countbutton{
+	color: white;
+	font-size: 100px;
+	text-decoration: none;
+}
+
+
+#countdiv{
+	width: 400px;
+	height: 400px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;	
+	border-width: 10px;
+	margin: 0 auto;
+	padding: 120px 0 120px 0;
+}
+
+#countdiv:hover{
+	border-color: grey;
+}
+
+
+.noselect{
+	-webkit-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.cursor{
+	cursor: default; 
+}
